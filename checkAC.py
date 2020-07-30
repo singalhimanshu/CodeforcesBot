@@ -19,8 +19,8 @@ while (True):
     # For debugging purposes
     # s = f"Problem: {problem}, Verdict: {verdict} oldId: {prevSubmissionId} newId: {newSubmissionId}"
     # print(s)
-    if (newSubmissionId != prevSubmissionId and verdict != 'testing'):
-        print('changed')
+    if (newSubmissionId != prevSubmissionId and verdict != 'TESTING'):
+        # print('changed')
         prevSubmissionId = newSubmissionId
         s = f"Problem: {problem}, Verdict: {verdict}"
         # For debugging purposes
